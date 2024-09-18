@@ -1,0 +1,71 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #2b18d9;
+  --foreground: #fefefe;
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.greeting {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  vertical-align: text-bottom;
+}
+
+.greeting code {
+  background-color: #2314b0;
+  padding: 4px 8px;
+  border-radius: 2px;
+}
+
+.greeting > .small {
+  vertical-align: middle;
+  font-size: 14px;
+}
+
+.summary-container {
+  width: 400px;
+}
+
+.summary-card {
+  max-height: 80vh;
+  overflow: auto;
+}
+
+table {
+  width: 1000px;
+  max-width: calc(100% - 450px);
+}
+
+td.date {
+  display: block;
+  width: 150px;
+}
+
+thead tr td {
+  font-weight: bold;
+  vertical-align: middle;
+}
+
+table tr td {
+  padding: 5px 10px;
+  margin: 5px;
+}
+
+table tr:nth-child(odd) {
+  background: #2816c8;
+}
