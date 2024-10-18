@@ -1,6 +1,6 @@
-# Karat Cardholder Dashboard
+# (DEMO APP) Cardholder Dashboard
 
-A dashboard for Karat cardholders that includes full card activity, metrics and a chart breaking down the relative frequency of transaction categories across all captured transactions
+A dashboard for cardholders that includes full card activity, metrics and a chart breaking down the relative frequency of transaction categories across all captured transactions
 
 **Note**: This dashboard is built with [Next.js](https://nextjs.org); which is a framework built on top of React and NodeJs. It is recommended to familiarize yourself with its concepts - especially API and custom route setup - before proceeding.
 
